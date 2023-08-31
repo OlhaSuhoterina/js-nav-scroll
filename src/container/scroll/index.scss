@@ -1,0 +1,37 @@
+main {
+	padding: 60px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 100px;
+
+	position: relative;
+
+}
+
+img{
+	border-radius: 15px;
+}
+
+button {
+	border-radius: 24px;
+	padding: 12px;
+	background-color: chocolate;
+	display: flex;
+	align-items: center;
+	width: 45px;
+	height: 45px;
+
+	transition: opasity 0.7s;
+
+	&:hover{
+		opacity: 0.7;
+	}
+
+	position: fixed;
+	bottom: 45px;
+	left: 45px;
+
+	display: none;
+}
